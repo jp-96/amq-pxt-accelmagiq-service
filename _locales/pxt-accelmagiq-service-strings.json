@@ -1,0 +1,6 @@
+{
+  "accelmagiq.notifyData|block": "true",
+  "accelmagiq.startService|block": "true",
+  "accelmagiq|block": "AccelMagiQ",
+  "{id:category}Accelmagiq": "Accelmagiq"
+}
