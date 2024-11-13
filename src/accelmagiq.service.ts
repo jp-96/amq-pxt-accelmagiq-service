@@ -14,7 +14,7 @@
  */
 //% block="AccelMagiQ"
 //% weight=95 color=#4b0082 icon="\uf1d8"
-//% groups="['Sensor', 'Quaternion', 'EulerAngles', 'Service']"
+//% groups="['Quaternion', 'EulerAngles', 'Sensor', 'Service']"
 namespace accelmagiq {
 
     /**
@@ -22,8 +22,10 @@ namespace accelmagiq {
      * This function initializes the necessary Bluetooth services on the micro:bit to enable
      * real-time communication of quaternion data to connected devices.
      */
-    //% block
+    //% block="start AccelMagiQ service"
     //% shim=accelmagiq::startService
+    //% group="Service"
+    //% weight=92
     export function startService(): void {
         return;
     }
@@ -50,7 +52,9 @@ namespace accelmagiq {
      *
      * @param q - An array containing the quaternion components [w, x, y, z].
      */
-    //% block
+    //% block="notify data %q"
+    //% group="Service"
+    //% weight=90
     export function notifyData(q: number[]): void {
         if (4 != q.length) {
             return;
