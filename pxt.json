@@ -29,7 +29,24 @@
     ],
     "preferredEditor": "tsprj",
     "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1
+                }
+            }
+        },
         "userConfigs": [
+            {
+                "description": "Reset Bluetooth Enabled",
+                "config": {
+                    "microbit-dal": {
+                        "bluetooth": {
+                            "enabled": 1
+                        }
+                    }
+                }
+            },
             {
                 "description": "Disable Bluetooth Device Infomation Service",
                 "config": {
@@ -56,16 +73,6 @@
                     "microbit-dal": {
                         "bluetooth": {
                             "partial_flashing": 0
-                        }
-                    }
-                }
-            },
-            {
-                "description": "Reset Bluetooth Enabled",
-                "config": {
-                    "microbit-dal": {
-                        "bluetooth": {
-                            "enabled": 1
                         }
                     }
                 }
