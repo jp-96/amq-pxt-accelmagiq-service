@@ -1,5 +1,5 @@
 
-> Open this page at GitHub Pages: [https://github.com/jp-96/amq-pxt-accelmagiq-service/](https://github.com/jp-96/amq-pxt-accelmagiq-service/)
+> Open this page at GitHub Pages: [https://jp-96.github.io/amq-pxt-accelmagiq-service/](https://jp-96.github.io/amq-pxt-accelmagiq-service/)
 
 ## Quaternions with AccelMagiQ and micro:bit!
 
